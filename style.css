@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap');
+/* font-family: 'Plus Jakarta Sans', sans-serif; */
+
+*{
+    margin: 0;
+    text-decoration: none;
+}
+
+body{
+    background-color: #f4f4f4;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+p{
+    font-size: 12px;
+}
+
+.date p {
+    font-size: 10px;
+}
+
+main{
+    position: absolute;
+    width:85%;
+    max-width: 700px;
+    height: 500px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+h1{
+    font-size: 15px;
+}
+
+#mark-all-as-read{
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+#mark-all-as-read:hover{
+    color: rgb(71, 71, 255);
+
+}
+
+
+
+h3{
+    font-size: 14px;
+    text-align: center;
+    margin-left: 5px;
+    background-color: blue;
+    color: white;
+    padding: 2px 10px 1px 10px;
+    border-radius: 5px;
+}
+h4{
+    font-weight: 800;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+h4:hover{
+    color: rgb(1, 64, 255);
+}
+
+#action{
+    margin: auto 5px;
+}
+
+.notifs_and_mark{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.notifs-alert{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.notifs-persons{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    padding: 5px;
+
+}
+
+.first-part{
+    display: flex;
+    flex-direction: column;
+}
+.txt-notif img{
+    margin-left: 150px;
+}
+
+.old-notifs-persons{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    padding: 5px;
+
+}
+
+.notifs-persons img,
+.old-notifs-persons img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.new{
+    background-color: aliceblue;
+
+
+}
+
+.txt-notif{
+    display: flex;
+    flex-direction: row;
+}
+
+.new-mark{
+    background-color: red;
+    border-radius: 100px;
+    width: 7px;
+    height: 7px;
+    margin: 5px auto auto 5px;
+
+}
+
+.private-message{
+    margin-top: 15px;
+    padding: 5px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+
+.hidden{
+    display: none;
+}
+
+.all-parts{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
